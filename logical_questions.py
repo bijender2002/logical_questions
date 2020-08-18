@@ -1,4 +1,4 @@
-Q1.  Printing all no, in 1 list.
+# Q1.  Printing all no, in 1 list.
 
 List=[1,2,[2,4,5],4,[2,1]]
 final_list = []
@@ -15,7 +15,7 @@ for i in List:
 print(final_list)
 
 
-Q2.  factorial number
+# Q2.  factorial number
 
 def fact(a):
 	if a==1:
@@ -26,7 +26,7 @@ def fact(a):
 print(fact(int(input("Enter your number: "))))
 
 
-Q3. Remove duplicate from the list
+# Q3. Remove duplicate from the list
 
 def duplicate(a):
 	new_list=[]
@@ -37,7 +37,7 @@ def duplicate(a):
 duplicate([34,34,3,24,3,4,3,4,34,3])
 
 
-Q4. For checking number is perfect or not:
+# Q4. For checking number is perfect or not:
 
 p=int(input("Enter any No: "))
 sum1=0
@@ -51,7 +51,7 @@ else:
 	print("It is not a perfect number")
 
 
-Q5. For doing number in Decending order:
+# Q5. For doing number in Decending order:
 
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
@@ -83,7 +83,7 @@ else:
 
 
 
-Q6. Counting vowels and constant from the given string:
+# Q6. Counting vowels and constant from the given string:
 
 vowels="aeiou"
 user=input("Enter your text: ").lower()
@@ -97,7 +97,7 @@ constant=(len(user))-total_count
 print("Constant=",constant)
 
 
-Q7. for checking type:
+# Q7. for checking type:
 
 a=input("enter anything:-")
 numbers = "0123456789"
@@ -114,7 +114,7 @@ else:
 				print("its not int")
 
 
-Q8. For checking Armstrong Number:
+# Q8. For checking Armstrong Number:
 
 num=int(input("Enter any number: "))
 power = len(str(num))
@@ -130,7 +130,7 @@ else:
 	print(b,"It is not a arm strong no.")
 
 
-Q9.  Program for printing Heart:
+# Q9.  Program for printing Heart:
 
 for a in range(6):
 	for b in range(7):
@@ -142,7 +142,7 @@ for a in range(6):
 	print()
 
 
-Q10. For printing marks less_than 50 or more than 50:
+# Q10. For printing marks less_than 50 or more than 50:
 
 student_marks = [23, 45, 67, 89, 90, 54, 34, 21, 34, 23, 19, 28, 10, 45, 86, 87, 9]
 list_length = len(student_marks)
@@ -160,7 +160,7 @@ print ("Marks more than 50: " + str(more_than50))
 print ("Marks less than 50: " + str(less_than50))
 
 
-Q11.   NAME Printing
+# Q11.   NAME Printing
         
 for i in range(9):
 	for j in range(52):
@@ -171,7 +171,7 @@ for i in range(9):
 	print()
 
 
-Q12. finding all pair whose sum is equal to the given number:
+# Q12. finding all pair whose sum is equal to the given number:
 
 number = 30
 n = [10, 11, 12, 13, 14, 17, 18, 19]
@@ -185,7 +185,7 @@ for i in n:
 print("Equal pair = ",d)
 
 
-Q13. for checking it is magic_square or not:
+# Q13. for checking it is magic_square or not:
 
 magic_square = [
     [8, 3, 4],
@@ -218,7 +218,7 @@ else:
 	print('it is not magic square')
 
 
-Q14.  list mei kitne log:
+# Q14.  list mei kitne log:
 
 1 - Crorepati hai
 2 - Lakhpati hai
@@ -238,7 +238,7 @@ for i in kitna_paisa_hai:
 print("Croreppati=",a,"\n""Lakhpati=",b,"\n""Dilwale=",c)
 
 
-Q15. Counting of same letter:
+# Q15. Counting of same letter:
 
 char_list = ["a", "n", "t", "a", "a", "t", "n", "n", "a", "x", "u", "g", "a", "x", "a"]
 b=[]
@@ -253,40 +253,40 @@ for i in char_list:
     print(i,"=",count,"times")
 
 
-Q16. Writting name from exercise.py file to other file: 
+# Q16. Writting name from exercise.py file to other file: 
 
-This all name in exercise.py file:
+# This all name in exercise.py file:
 
-rishabh - meerut
-imtiyaz - delhi
-nilima - cochin
-rati - shimla
-ayishah - delhi
-raghu - shimla
-naseer - kanpur
-karthikeyan - delhi
-salma - jaipur
-pankaj - delhi
-brijesh - delhi
-govind - delhi
-puneet - shimla
-siddhi - delhi
-suman - jaipur
-rajeev - shimla
-mohinder - delhi
-rajendra - jaipur
-priyanka - shimla
-neela - delhi
-sashi - jaipur
-sarika - delhi
-deepti - shimla
-harshad - delhi
-trishna - raipur
-pradeep - jaipur
-sekhar - delhi
-nand - delhi
-anoop - delhi
-balwinder - tokyo
+# rishabh - meerut
+# imtiyaz - delhi
+# nilima - cochin
+# rati - shimla
+# ayishah - delhi
+# raghu - shimla
+# naseer - kanpur
+# karthikeyan - delhi
+# salma - jaipur
+# pankaj - delhi
+# brijesh - delhi
+# govind - delhi
+# puneet - shimla
+# siddhi - delhi
+# suman - jaipur
+# rajeev - shimla
+# mohinder - delhi
+# rajendra - jaipur
+# priyanka - shimla
+# neela - delhi
+# sashi - jaipur
+# sarika - delhi
+# deepti - shimla
+# harshad - delhi
+# trishna - raipur
+# pradeep - jaipur
+# sekhar - delhi
+# nand - delhi
+# anoop - delhi
+# balwinder - tokyo
 
 file=open("exercise.py")
 c=file.read()
@@ -315,7 +315,7 @@ for i in b:
 		f.write(i)
 
 
-Q17. Prime number
+# Q17. Prime number
 
 while True:
 	a=int(input("Enter number: "))
@@ -331,7 +331,7 @@ while True:
 		print("It is not prime number")
 
 
-Q18. Program to combine two dictionary adding values for common keys. 
+# Q18. Program to combine two dictionary adding values for common keys. 
 
 def sum(a,b):
 	for i in a:
@@ -352,7 +352,7 @@ for j in b:
 		c[j]+=b[j]
 print(c)
 
-Q19. Simple calculator:
+# Q19. Simple calculator:
 
 def calculator(number_x,number_y,operation):
 	if operation=="+":
@@ -370,7 +370,7 @@ b=calculator(10,5,operation =input("Enter your operation: "))
 print(b)
 
 
-Q20. fibonacci squence even number:
+# Q20. fibonacci squence even number:
 
 n=int(input("Enter number: "))
 a=0
@@ -385,7 +385,7 @@ if n==0:
 	print("kuch Nahi")
 
 
-Q21. for reversing number:
+# Q21. for reversing number:
 
 r = int(input("enter the value to be reversed : "))
 lsii = []
@@ -397,7 +397,7 @@ for i in lsii:
 print()
 
 
-Q22. Printing counting from string number to int number till 9:
+# Q22. Printing counting from string number to int number till 9:
 
 dict1={ 'zero':0,'one': 1,'two':2,'three':3,'four':4,'five':5,'six':6,'seven':7,'eight':8,'nine':9}
 n=input("Enter the Value:  ")
@@ -409,7 +409,7 @@ for i in a:
 print(sum)
 
 
-Q23. for printing details:
+# Q23. for printing details:
 
 class Student:
 	def __init__(self,first_name,last_name,father_name):
